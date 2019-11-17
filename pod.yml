@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+
+metadata:
+  name: myapp
+  labels:
+    app: mmyapp
+    type: acjend
+
+spec:
+  containers:
+    - name: ngni
+      image: nginx
+      
